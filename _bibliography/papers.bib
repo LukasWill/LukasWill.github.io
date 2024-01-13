@@ -3,82 +3,41 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{Lu23CausalState,
+  title = {Causal {{State Distillation}} for {{Explainable Reinforcement Learning}}},
+  author = {Lu, Wenhao and Zhao, Xufeng and Fryen, Thilo and Lee, Jae Hee and Li, Mengdi and Magg, Sven and Wermter, Stefan},
+  booktitle = {3rd Conference on Causal Learning and Reasoning (<b>CLeaR 2024</b>) (<p style="color:red;display:inline"><b>oral</b></p>), Los Angeles, California, USA. <p style="color:orange;display:inline">[Scheduled]</p>},
+  year = {2024},
+  month = April,
+  number = {arXiv:2401.00104},
+  arxiv = {2401.00104},
+  primaryclass = {cs, stat},
+  publisher = {{arXiv}},
+  url = {http://arxiv.org/abs/2401.00104},
+  urldate = {2024-01-02},
+  abstract = {Reinforcement learning (RL) is a powerful technique for training intelligent agents, but understanding why these agents make specific decisions can be quite challenging. This lack of transparency in RL models has been a long-standing problem, making it difficult for users to grasp the reasons behind an agent's behaviour. Various approaches have been explored to address this problem, with one promising avenue being reward decomposition (RD). RD is appealing as it sidesteps some of the concerns associated with other methods that attempt to rationalize an agent's behaviour in a post-hoc manner. RD works by exposing various facets of the rewards that contribute to the agent's objectives during training. However, RD alone has limitations as it primarily offers insights based on sub-rewards and does not delve into the intricate cause-and-effect relationships that occur within an RL agent's neural model. In this paper, we present an extension of RD that goes beyond sub-rewards to provide more informative explanations. Our approach is centred on a causal learning framework that leverages information-theoretic measures for explanation objectives that encourage three crucial properties of causal factors: {\textbackslash}emph\{causal sufficiency\}, {\textbackslash}emph\{sparseness\}, and {\textbackslash}emph\{orthogonality\}. These properties help us distill the cause-and-effect relationships between the agent's states and actions or rewards, allowing for a deeper understanding of its decision-making processes. Our framework is designed to generate local explanations and can be applied to a wide range of RL tasks with multiple reward channels. Through a series of experiments, we demonstrate that our approach offers more meaningful and insightful explanations for the agent's action selections.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Methodology},
+  pages = {2401.00104},
+  preview= {RD_flow_overview.jpg},
+  journaltitle = {}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{Lu23CloserLook,
+  title = {A {{Closer Look}} at {{Reward Decomposition}} for {{High-Level Robotic Explanations}}},
+  author = {Lu, Wenhao and Zhao, Xufeng and Magg, Sven and Gromniak, Martin and Wermter, Stefan},
+  booktitle = {IEEE International Conference on Development and Learning (<b>ICDL 2023</b>), Macau, China},
+  year = {2023},
+  month = Nov,
+  number = {arXiv:2304.12958},
+  eprint = {2304.12958},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2304.12958},
+  urldate = {2023-08-21},
+  abstract = {Explaining the behavior of intelligent agents such as robots to humans is challenging due to their incomprehensible proprioceptive states, variational intermediate goals, and resultant unpredictability. Moreover, one-step explanations for reinforcement learning agents can be ambiguous as they fail to account for the agent's future behavior at each transition, adding to the complexity of explaining robot actions. By leveraging abstracted actions that map to task-specific primitives, we avoid explanations on the movement level. Our proposed framework combines reward decomposition (RD) with abstracted action spaces into an explainable learning framework, allowing for non-ambiguous and high-level explanations based on object properties in the task. We demonstrate the effectiveness of our framework through quantitative and qualitative analysis of two robot scenarios, showcasing visual and textual explanations, from output artifacts of RD explanation, that are easy for humans to comprehend. Additionally, we demonstrate the versatility of integrating these artifacts with large language models for reasoning and interactive querying.},
+  archiveprefix = {arxiv},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Computer Science - Robotics},
+  arxiv = {2304.12958},
+  abbr = {IEEE ICDL 2023},
 }
