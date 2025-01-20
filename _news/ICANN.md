@@ -1,0 +1,1 @@
+Our work [Details Make a Difference: Object State-Sensitive Neurorobotic Task Planning](https://arxiv.org/abs/2406.09988), which studies how object status influences robotic decision/manipulation, has been accepted at ICANN 2024, scheduled for September 17 to September 20, 2024, in Switzerland.
