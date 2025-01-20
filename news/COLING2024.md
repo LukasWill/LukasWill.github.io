@@ -1,0 +1,1 @@
+Exciting News: our paper [Enhancing Zero-Shot Chain-of-Thought Reasoning in Large Language Models through Logic](http://arxiv.org/abs/2309.13339) has been accepted oral presentation at COLING 2024 in Turin, Italy, scheduled for May 2024.

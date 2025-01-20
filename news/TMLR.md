@@ -1,0 +1,1 @@
+Our work [Mental Modelling of Reinforcement Learning Agents by Language Models](https://openreview.net/forum?id=JN7iNWaPTe), which studies how/to what degree an LLM can mental model a pre-trained reinforcement learning agent for explanability purpose, has been accepted at journal [TMLR](https://openreview.net/forum?id=JN7iNWaPTe).

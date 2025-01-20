@@ -1,0 +1,1 @@
+Our work [Large Language Models for Orchestrating Bimanual Robots](https://arxiv.org/abs/2404.02018), which studies how bimanual robots can benefit from LLMs for efficient two-hand collaboration, has been accepted at Humanoids 2024, scheduled on November 22-24, Nancy, France.
